@@ -1,3 +1,8 @@
 theme: jekyll-theme-minimal
 title: Kidikod
 description: L'association pour apprendre le code en s'amusant
+timezone: Europe/Paris
+safe: true
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+plugins:
+  - jekyll-include-cache
