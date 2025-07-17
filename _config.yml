@@ -1,8 +1,16 @@
-theme: jekyll-theme-minimal
 title: Kidikod
-description: L'association pour apprendre le code en s'amusant
+email: hello@kidikod.org
+description: >- # this means to ignore newlines until "baseurl:"
+  L'association pour apprendre le code en s'amusant
+baseurl: "" 
+url: "https://kidikod.github.io/" 
+github_username:  Kidikod
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 timezone: Europe/Paris
 safe: true
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 plugins:
+  - jekyll-feed
   - jekyll-include-cache
