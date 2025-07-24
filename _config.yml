@@ -6,9 +6,45 @@ baseurl: ""
 url: "https://kidikod.github.io/" 
 github_username:  Kidikod
 
+# Theme settings 
+# Propriété lié au thème minimal-mistakes. 
+# En cas de changement de thème, ces propriétés risque de ne plus être d'actualité)
+permalink: "/:categories/:title/"
+enable_copy_code_button: true
+minimal_mistakes_skin: "dark"
+date_format: "%d/%m/%Y"
+logo: "/assets/images/kidikod_logo.png"
+masthead_title: "  "
+breadcrumbs: true
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: true
+footer:
+  since: "2023"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kidikod"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/profile.php?id=100092532854134"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://piaille.fr/@kidikod"
+
 # Build settings
-markdown: kramdown
+markdown: kramdown 
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+locale: "fr-FR"
 timezone: Europe/Paris
 safe: true
 plugins:

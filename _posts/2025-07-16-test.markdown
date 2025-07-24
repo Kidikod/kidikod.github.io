@@ -1,0 +1,21 @@
+---
+title:  "Test d'une page"
+date:   2025-07-16 22:02:29 +0000
+categories: test
+---
+Ceci est un test d'une nouvelle page
+
+Avec un bloc de code 
+```
+function _init()
+x=40
+y=50
+rayon=15
+couleur=10
+end
+
+function _draw()
+cls()
+circfill(x, y, rayon, couleur)
+end
+```
