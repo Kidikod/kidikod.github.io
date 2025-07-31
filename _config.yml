@@ -6,6 +6,10 @@ baseurl: ""
 url: "https://kidikod.github.io/" 
 github_username:  Kidikod
 
+collections:
+  scratch_tp:
+    output: true
+
 # Theme settings 
 # Propriété lié au thème minimal-mistakes. 
 # En cas de changement de thème, ces propriétés risque de ne plus être d'actualité)
