@@ -9,6 +9,7 @@ github_username:  Kidikod
 collections:
   scratch_tp:
     output: true
+    permalink: /:collection/:path
 
 # Theme settings 
 # Propriété lié au thème minimal-mistakes. 
@@ -32,6 +33,15 @@ defaults:
       comments: false
       share: false
       related: true
+  - scope:
+      type: scratch_tp
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: true
+      related: false
 footer:
   since: "2023"
   links:
@@ -47,7 +57,7 @@ footer:
 
 # Build settings
 markdown: kramdown 
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+theme: minimal-mistakes-jekyll
 locale: "fr-FR"
 timezone: Europe/Paris
 safe: true
