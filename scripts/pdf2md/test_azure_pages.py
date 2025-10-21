@@ -14,7 +14,7 @@ def test_with_simulated_azure():
     """Test avec APIs Azure simulées pour démonstration"""
     
     pdf_path = "/workspaces/kidikod.github.io/_scratch_tp/plantamagotchi/Plantamagotchi.pdf"
-    output_path = "/workspaces/kidikod.github.io/_scratch_tp/plantamagotchi/test_pages_0_1_2_azure.md"
+    output_path = "/workspaces/kidikod.github.io/_scratch_tp/plantamagotchi/test_azure.md"
     
     print("=== Test des 3 premières pages avec APIs Azure ===\n")
     
